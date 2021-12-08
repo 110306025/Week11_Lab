@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<script>
+		var number;
+		var rand = Math.floor((Math.random()*10)+1);
+		number = window.prompt("來玩遊戲!猜數字1~10");
+
+		while(number!=rand){
+			number = window.prompt("再試試看吧~猜數字1~10");
+		}
+		document.writeln("<h1>Youuuuuu win太棒惹");
+	</script>
+
+</body>
+</html>
